@@ -9,8 +9,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+}
+
+nav,
+header,
+footer {
+    display: block;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0;
 }
 
 h1,
@@ -35,4 +45,78 @@ a {
 b,
 strong {
     font-weight: 600;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#menu {
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 20px 0px 0px;
+    text-align: right;
+    hyphens: none;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-right: 5%;
+    padding-bottom: 4px;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 50px;
+    z-index: 100;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.testimonial {
+    padding: 10px 20px;
+    margin: 30px 0;
+    -webkit-box-shadow: 0px 0px 21px -2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 21px -2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 21px -2px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#about {
+    background-color: #FF33B1;
+}
+
+#contact {
+    background-color: #3C5490;
+}
+
+.light {
+    color: white;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 32px;
 }
