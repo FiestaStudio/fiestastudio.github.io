@@ -116,8 +116,15 @@ header img {
     list-style-type: none;
 }
 
+#deals ul {
+    padding: 0;
+}
+
 #deals li {
-    padding: 20px 0;
+    background: url(/images/check.svg) no-repeat left;
+    padding: 20px 0px 20px 50px;
+    list-style: none;
+    margin: 0;
 }
 
 #contact p {
