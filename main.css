@@ -27,6 +27,11 @@ a {
     color: #3C5490;
 }
 
+h1,
+h2 {
+    font-family: 'Poiret One', cursive;
+}
+
 .container {
     width: 100%;
     max-width: 980px;
@@ -89,6 +94,7 @@ header img {
 header p {
     text-align: center;
     font-size: 1.3em;
+    font-family: 'Poiret One', cursive;
 }
 
 #introduction {
