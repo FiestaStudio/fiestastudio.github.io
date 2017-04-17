@@ -24,8 +24,7 @@ section {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    color: #3C5490;
 }
 
 .container {
@@ -74,20 +73,28 @@ header {
     background-size: cover;
 }
 
-header img {
+header .hero {
+    max-width: 500px;
     display: block;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+header img {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.3em;
 }
 
 #introduction {
     width: 100%;
     max-width: 740px;
-    margin: 60px auto;
+    margin: 100px auto 60px auto;
     padding: 0;
     display: block;
     line-height: 2;
@@ -104,16 +111,18 @@ header img {
 
 .light {
     color: white;
+    text-decoration: none;
+}
+
+#packages ul {
+    list-style-type: none;
+    margin-top: 30px;
 }
 
 #packages li {
     float: left;
     margin-right: 5%;
     max-width: 25%;
-}
-
-#packages ul {
-    list-style-type: none;
 }
 
 #deals ul {
@@ -125,6 +134,16 @@ header img {
     padding: 20px 0px 20px 50px;
     list-style: none;
     margin: 0;
+}
+
+#deals .text {
+    max-width: 59%;
+    display: inline-block;
+}
+
+#deals img {
+    max-width: 40%;
+    display: inline-block;
 }
 
 #contact p {
