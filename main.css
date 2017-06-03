@@ -107,16 +107,6 @@ header span {
     font-style: italic;
 }
 
-#introduction {
-    width: 100%;
-    max-width: 740px;
-    margin: 100px auto 60px auto;
-    padding: 0;
-    display: block;
-    line-height: 2;
-    text-align: center;
-}
-
 #about {
     background-color: #FF33B1;
 }
