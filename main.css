@@ -90,7 +90,7 @@ header {
     position: relative;
     overflow: hidden;
     background-color: black;
-    background-image: url(https://raw.githubusercontent.com/FiestaStudio/fiestastudio.github.io/master/images/cover.jpg);
+    background-image: url(images/cover.jpg);
     background-size: cover;
 }
 
