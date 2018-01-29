@@ -43,7 +43,7 @@ h2 {
     padding: 0 15px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 880px) {
   .container {
     width: 80%;
   }
@@ -55,7 +55,7 @@ h2 {
     margin-top: 0px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 880px) {
   #menu {
     visibility: hidden;
   }
@@ -129,6 +129,7 @@ header span {
 
 .light {
     color: white;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -137,6 +138,7 @@ header span {
     margin-top: 30px;
     display: table;
     width: 100%;
+    padding: 0;
 }
 
 #packages li {
@@ -146,10 +148,23 @@ header span {
     max-width: 28%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 880px) {
+  #packages h3 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 880px) {
   #packages li {
-    max-width: 80%;
-    margin: 5% 0;
+    max-width: 100%;
+    margin: 15% 0;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #packages img {
+    margin: auto;
+    display: block;
   }
 }
 
@@ -164,7 +179,7 @@ header span {
     margin: 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 880px) {
   #deals img {
     visibility: hidden;
   }
@@ -175,6 +190,12 @@ header span {
     display: inline-block;
 }
 
+@media only screen and (max-width: 880px) {
+  #deals .text {
+      max-width: 100%;
+  }
+}
+
 #deals img {
     max-width: 40%;
     display: inline-block;
@@ -183,4 +204,10 @@ header span {
 #contact p {
     text-align: center;
     font-size: 2em;
+}
+
+@media only screen and (max-width: 880px) {
+  #contact p {
+    font-size: 1.5em;
+  }
 }
