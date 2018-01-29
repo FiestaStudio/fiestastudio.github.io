@@ -157,7 +157,7 @@ header span {
 @media only screen and (max-width: 880px) {
   #packages li {
     max-width: 100%;
-    margin: 15% 0;
+    margin: 10% 0;
   }
 }
 
